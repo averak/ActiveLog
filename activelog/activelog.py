@@ -14,7 +14,7 @@ class Logger:
     ERROR  = 3
     STDOUT = 4
     STDERR = 5
-    TYPES  = ['self.DEBUG', 'self.INFO', 'self.WARN', 'self.ERROR']
+    TYPES  = ['DEBUG', 'INFO', 'WARN', 'ERROR']
 
     def __init__(self, logdev, shift_freq=None, shift_size=1048576,
                  level=DEBUG, init=False, datetime_format=None,
