@@ -12,7 +12,7 @@ setup(
     name='activelog', # パッケージ名(プロジェクト名)
     packages=['activelog'], # パッケージ内(プロジェクト内)のパッケージ名をリスト形式で指定
 
-    version='1.0', # バージョン
+    version='1.0.0', # バージョン
 
     license='MIT', # ライセンス
 
