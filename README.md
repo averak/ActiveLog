@@ -1,5 +1,5 @@
 ActiveLog
-=======
+=========
 
 A simple logging utility for Python.
 
