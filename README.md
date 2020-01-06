@@ -16,15 +16,15 @@ shift_period_suffix | The log file suffix format for rotation. Default is '_%Y-%
 
 ### Simple Example
 ```python
-import activelog
+from activelog import Logger
 
 # Create a Logger that prints to STDOUT
-log = activelog.Logger(logger.STDOUT)
+log = Logger(Logger.STDOUT)
 log.debug("Created Logger")
 log.info("Program finished")
 
 # Create a Logger that prints to Log File
-log = activelog.Logger('log file path')
+log = Logger('log file path')
 log.warn("This is WARN message")
 log.error("This is ERROR message")
 ```
@@ -32,12 +32,12 @@ log.error("This is ERROR message")
 ### Log File Shift Example
 ```python
 # Switch log file daily
-log = activelog.Logger('log file path', shift_freq=60*60*24)
+log = Logger('log file path', shift_freq=60*60*24)
 # Switch log file weekly
-log = activelog.Logger('log file path', shift_freq=60*60*24*7)
+log = Logger('log file path', shift_freq=60*60*24*7)
 
 # Switch log file every 10MB
-log = activelog.Logger('log file path', shift_size=100000000)
+log = Logger('log file path', shift_size=100000000)
 ```
 
 ### Output Example
