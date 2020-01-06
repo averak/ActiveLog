@@ -3,6 +3,7 @@ ActiveLog
 
 A simple logging utility for Python.
 
+
 ## Usage
 ### Description of Constructors's Argument
 name                |Description
@@ -45,6 +46,13 @@ log = Logger('log file path', shift_size=100000000)
 [2020-01-01 07:11:09.887267 #sample.py line:4] INFO  -- : Program Start!!
 [2020-01-01 07:11:23.535936 #sample.py line:9] ERROR -- : Program End...
 ```
+
+
+## Installation
+```sh
+$ pip install activelog
+```
+
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at [https://github.com/AjxLab/ActiveLog](https://github.com/AjxLab/ActiveLog).
