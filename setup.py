@@ -11,7 +11,7 @@ setup(
     name='activelog',
     packages=['activelog'],
 
-    version='1.0.0',
+    version='1.0.1',
     license='MIT',
 
     author='Tatsuya Abe',
