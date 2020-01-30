@@ -2,6 +2,7 @@ ActiveLog
 =========
 
 [![PyPi](https://badge.fury.io/py/activelog.svg)](https://pypi.python.org/pypi/activelog/)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 A simple logging utility for Python.
 
