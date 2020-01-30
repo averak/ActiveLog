@@ -1,6 +1,8 @@
 ActiveLog
 =========
 
+[![PyPi](https://badge.fury.io/py/activelog.svg)](https://pypi.python.org/pypi/activelog/)
+
 A simple logging utility for Python.
 
 
